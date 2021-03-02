@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Teko", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  input {
+    height: 30px;
+    width: 300px;
+    font-size: 10px;
+   
+    
+  }
+  
+input:hover {
+    background-color: rgba(185, 185, 185, 0.322);
+  }
+  .container {
+    width: 100%;
+    height: 979px;
+    background-color: white;
+     
+  }
+  form {
+    width: 100px;
+    height: 100px;
+  }
+  
+fieldset {
+    border: none;
+  }
+  legend {
+    display: none;
+  }
+  
+
+.header {
+    grid-area: header;
+  }
+  
+.banner:hover {
+    background-color: rgba(255, 255, 255, 0.603);
+  }
+  
+.banner h1:hover {
+    color: #000;
+  }
+  
+.aside h1 {
+    
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+.banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    transition: 0.5s;
+  }
+  .form {
+    
+    grid-area: form;
+    color: black;
+    width: 1400px;
+    height: 750px;
+    margin: 90px ;
+    padding: 10px;
+  }
+  
+label {
+    
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+  }
+  
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .col1 {
+    padding: 10px 10px;
+  }
+  
+
+.col2 {
+    padding: 10px 10px;
+  }
+  input[type="date"] {
+    height: 30px;
+    width: 300px;
+    font-size: 10px;
+  }
+  
+.radio {
+    display: flex;
+    margin: 25px 0px 25px 0px;
+  }
+  
+
+.radio-type {
+    margin: 5px 0px 0px 20px;
+    font-size: 21px;
+  }
+  
+.radio-type input {
+    width: 30px;
+    height: 15px;
+    margin: 15px 0px 0px 0px;
+  }
+  .blood-group {
+    margin: 0px 0px 0px 0px;
+  }
+  .blood-group-type select {
+    height: 30px;
+    width: 300px;
+    font-size: 10px;
+    transition: 0.5s;
+  }
+  textarea {
+    width: 300px;
+    height: 200px;
+    font-size: 10px;
+    
+    padding: 10px 10px;
+    border: 1px solid rgba(177, 177, 177, 0.397);
+    transition: 0.5s;
+  }
+  textarea:hover {
+    background-color: rgba(185, 185, 185, 0.322);
+  }
+  .terms-and-condition {
+    font-size: 20px;
+    padding: 20px 0px 0px 560px;
+  }
+  .terms-and-condition input {
+    width: 20px;
+    height: 20px;
+    margin: 6px 10px 0px 0px;
+  }
+  .submit input {
+    margin: 20px 0px 0px 600px;
+    width: 200px;
+    background-color: blueviolet;
+    
+    border-radius: 8px;
+    transition: 0.5s;
+  }
+  
+
+.submit input:hover {
+    border: 1px solid white;
+    background-color: rgb(63, 63, 63);
+    color: white;
+  }

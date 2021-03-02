@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!-- Page-Style-link -->
+    <link rel="stylesheet" href="mahedi_style.css" />
+    <!-- Page-Style-link -->
+
+    <!-- Responsive-Page-Style-Link -->
+    <link rel="stylesheet" href="mahedi_style.css" />
+    <!-- Responsive-Page-Style-Link -->
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="aside">
+        <div class="banner">
+          <h1>Registration Form</h1>
+        </div>
+      </div>
+     
+      <fieldset>
+        <form action="" autocomplete="on" method="POST">
+          <div class="form">
+            <div class="row">
+              <div class="col1">
+                <label for="firstname">First name</label><br />
+                <input type="text" placeholder="Enter your Fast Name" id="firstname" /><br />
+                <label for="lastname"> Last Name </label><br />
+                <input type="text" placeholder="Enter Your Last Name" id="lastname" /><br />
+                <label for="email">Email Address</label><br />
+                <input
+                  type="text"
+                  placeholder="Enter Your E-mail"
+                  id="email"
+                /><br />
+                <label for="password">Password</label><br />
+                <input
+                  type="password"
+                  placeholder=""
+                  id="password"
+                /><br />
+                <label for="password">Re-type Password</label><br />
+                <input
+                  type="password"
+                  placeholder=""
+                  id="password"
+                /><br />
+                <label for="m-number">Mobile Number</label><br />
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  id="m-number"
+                /><br />
+              </div>
+              <div class="col2">
+                <label for="dob">Date Of Birth</label><br />
+                <input type="date" id="dob" />
+                <div class="radio">
+                  <label for="gender">Gender</label>
+                  <div class="radio-type">
+                    <input type="radio" id="male" name="Gender" value="male" />
+                    <label for="male">Male</label>
+                    <input
+                      type="radio"
+                      id="female"
+                      name="Gender"
+                      value="female"
+                    />
+                    <label for="female">Female</label>
+                    <input
+                      type="radio"
+                      id="other"
+                      name="Gender"
+                      value="other"
+                    />
+                    <label for="other">Other</label>
+                  </div>
+                </div>
+                <div class="blood-group">
+                  <label for="bg">Blood Group</label><br />
+                  <div class="blood-group-type">
+                    <select name="Blood" id="bg">
+                      <option value="">Select Your Blood Group</option>
+                      <option value="">A+</option>
+                      <option value="">A-</option>
+                      <option value="">B+</option>
+                      <option value="">A-</option>
+                      <option value="">O+</option>
+                      <option value="">O-</option>
+                      <option value="">AB+</option>
+                    </select>
+                  </div>
+                </div>
+                <br />
+                <label for="address">Address</label><br />
+                <textarea
+                  name="Address"
+                  id="address"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter Your Address Here"></textarea>
+              </div>
+            </div>
+            <div class="terms-and-condition">
+              <input type="checkbox" id="check" /><label for="check"
+                >I agree with <a href="#">Terms & Conditions</a></label>
+            </div>
+            <div class="submit">
+              <input type="submit" />
+            </div>
+          </div>
+        </form>
+      </fieldset>
+    </div>
+  </body>
+</html>
